@@ -1,561 +1,201 @@
 <!-- Navbar -->
 <app-navbar-style-one></app-navbar-style-one>
-<!-- End Navbar -->
+<!-- HERO -->
+<section class="hero-section">
+    <div class="hero-overlay"></div>
 
-<!-- Banner -->
-<section class="banner-area bg-1">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <div class="container">
-                <div class="banner-content">
-                    <h1 class="wow fadeInDown" data-wow-delay="1s">Our priority is to ensure the well being of patients</h1>
-                    <p class="wow fadeInLeft" data-wow-delay="1s">Our service and the work efficiency of our staff are the reasons for our success.</p>
-                    <div class="banner-btn wow fadeInUp" data-wow-delay="1s">
-                        <a routerLink="/about" class="default-btn">View more</a>
+    <div class="container hero-content">
+        <h1>Experience the Best in Food & Dining</h1>
+
+        <p>Delicious meals, memorable moments, and exceptional service.</p>
+
+        <a routerLink="/menu" class="btn-primary"> View Menu </a>
+    </div>
+</section>
+
+<!-- FEATURE CARDS -->
+<section class="features-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="assets/img/features/chef.png" />
+
+                    <div class="feature-content">
+                        <h3>Our Chefs</h3>
+                        <p>Meet our talented culinary team.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="assets/img/features/reserve.png" />
+
+                    <div class="feature-content">
+                        <h3>Book a Table</h3>
+                        <p>Reserve your seat for a great dining experience.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="assets/img/features/delivery.png" />
+
+                    <div class="feature-content">
+                        <h3>Order Online</h3>
+                        <p>Enjoy your favorite meals at home.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End Banner -->
 
-<!-- Feature -->
-<div class="feature-area">
+<!-- ABOUT -->
+<section class="about-section">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4 col-sm-6">
-                <div class="single-feature">
-                    <i class="flaticon-doctor-1"></i>
-                    <span>Find a doctor</span>
-                </div>
+        <div class="row align-items-center">
+            <!-- TEXT SIDE -->
+            <div class="col-lg-6 about-text">
+                <h2>
+                    Passionate about great food<br />
+                    and amazing experiences
+                </h2>
+
+                <p>
+                    We focus on fresh ingredients, creative recipes, and a warm
+                    ambience. Our goal is to provide an unforgettable dining
+                    experience with every visit.
+                </p>
+
+                <a routerLink="/reservation" class="btn-primary">
+                    Reserve Your Table
+                </a>
             </div>
 
-            <div class="col-lg-4 col-sm-6">
-                <div class="single-feature active">
-                    <img src="assets/img/icon/appointment.png" alt="Image">
-                    <span>Request an appointment</span>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <div class="single-feature">
-                    <i class="flaticon-first-aid-kit"></i>
-                    <span>Emergency case</span>
-                </div>
+            <!-- IMAGE SIDE -->
+            <div class="col-lg-6 about-image">
+                <img
+                    src="assets/img/about/about-img-1.jpg"
+                    alt="Restaurant Food"
+                />
             </div>
         </div>
     </div>
-</div>
-<!-- End Feature -->
-
-<!-- Start Choose Us -->
-<section class="choose-us-area ptb-100">
+</section>
+<section class="menu-section">
     <div class="container">
         <div class="section-title">
-            <span>Why choose us</span>
-            <h2>A hospital is an institution where patients are treated. Our doctors are always engaged in this work</h2>
+            <h2>Our Specialties</h2>
+            <p>Explore our signature dishes crafted to perfection.</p>
         </div>
 
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-md-12">
-                <div class="choose-us-img">
-                    <img src="assets/img/choose-us-img.png" alt="Image">
+        <div class="row menu-items">
+            <div class="col-md-3">
+                <div class="menu-card">
+                    <img src="assets/img/menu/burger.png" />
+                    <h4>Gourmet Burger</h4>
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-12">
-                <div class="choose-us-content">
-                    <h3>In remote & the around places who lives there, medical science is changing their medical care, education & research impact</h3>
-                    <p>Our most experienced doctors,emergency doctors,nurses,therapist & researchers give Their Best in this hospital.they also provide advanced medicine facilities,campuses,clinics & classrooms.we give patients best innovative treatment and best service to improve the health and overall wellbeing of our community.</p>
-                    <a routerLink="/about" class="default-btn">About us</a>
+            <div class="col-md-3">
+                <div class="menu-card">
+                    <img src="assets/img/menu/pasta.png" />
+                    <h4>Seafood Pasta</h4>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="menu-card">
+                    <img src="assets/img/menu/steak.png" />
+                    <h4>Steak & Grill</h4>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="menu-card">
+                    <img src="assets/img/menu/salad.png" />
+                    <h4>Fresh Salads</h4>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="choose-us-shape"><img src="assets/img/choose-us-shape.png" alt="Image"></div>
-</section>
-<!-- End Choose Us -->
-
-<!-- Appointment -->
-<section class="appointment-area">
-    <div class="container">
-        <div class="appointment-here-form">
-            <form>
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-sm-6">
-                        <h3>Book an appointment</h3>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="form-group">
-                            <select>
-                                <option value="">Doctor Name</option>
-                                <option value="">Dr.Juhon Dew</option>
-                                <option value="">Dr.Jon Smith Care</option>
-                                <option value="">Dr.Ana</option>
-                                <option value="">Dr.Kilva</option>
-                                <option value="">Dr.Zilka Smith</option>
-                                <option value="">Dr.Jilva Dew</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="form-group">
-                            <div class="input-group date" id="datetimepicker">
-                                <input type="text" class="form-control" placeholder="07/09/2024">
-                                <span class="input-group-addon"></span>
-                            </div>	
-                            <i class="bx bx-calendar"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-sm-6">
-                        <button type="submit" class="default-btn">Book Now</button>
-                    </div>
-                </div>
-            </form>
+        <div class="menu-btn">
+            <a routerLink="/menu" class="btn-menu"> View Full Menu </a>
         </div>
     </div>
 </section>
-<!-- End Appointment -->
-
-<!-- Services -->
-<section class="services-area pt-100 pb-70">
+<section class="chef-section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="section-title text-align-left">
-                    <span>Our services</span>
-                    <h2>All the services that I provide to my patients in the field of treatment</h2>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-                <div class="section-btn">
-                    <a routerLink="/services-style-one" class="default-btn">View all services</a>
-                </div>
-            </div>
+        <!-- TITLE -->
+        <div class="section-title chef-title">
+            <h2>Meet Our Chefs</h2>
+            <p>Our culinary experts are here to delight you.</p>
         </div>
 
         <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-services">
-                    <div class="services-icon">
-                        <img src="assets/img/icon/cardiology.png" alt="Image">
-                    </div>
-                    <h3><a routerLink="/services-details">Cardiology</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                </div>
-            </div>
+            <!-- CHEF 1 -->
+            <div class="col-md-4">
+                <div class="chef-card">
+                    <img src="assets/img/chefs/chef1.jpg" />
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-services">
-                    <div class="services-icon">
-                        <img src="assets/img/icon/neurology.png" alt="Image">
-                    </div>
-                    <h3><a routerLink="/services-details">Neurology</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-services">
-                    <div class="services-icon">
-                        <img src="assets/img/icon/oncology.png" alt="Image">
-                    </div>
-                    <h3><a routerLink="/services-details">Cancer care</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-services">
-                    <div class="services-icon">
-                        <img src="assets/img/icon/chemistry.png" alt="Image">
-                    </div>
-                    <h3><a routerLink="/services-details">Laboratory</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="services-shape"><img src="assets/img/services-shape.png" alt="Image"></div>
-</section>
-<!-- End Services -->
-
-<!-- Testimonial -->
-<section class="testimonial-area pb-100">
-    <div class="container">
-        <div class="section-title text-align-left">
-            <span>Testimonial</span>
-            <h2>What do our patients say?</h2>
-        </div>
-
-        <div class="testimonial-slider owl-theme owl-carousel">
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-md-12">
-                    <div class="testimonial-img">
-                        <img src="assets/img/testimonial/testimonial-1.jpg" alt="Image">
-                        <div class="testimonial-shape">
-                            <img src="assets/img/testimonial/testimonial-shape.png" alt="Image">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-8 col-md-12">
-                    <div class="testimonial-content">
-                        <i class="flaticon-straight-quotes"></i>
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”</p>
-                        <h3>Markus Twain</h3>
-                        <img src="assets/img/testimonial/signature.png" alt="Image">
+                    <div class="chef-info">
+                        <h4>David Thompson</h4>
+                        <span>Head Chef</span>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-4 col-md-12">
-                    <div class="testimonial-img">
-                        <img src="assets/img/testimonial/testimonial-2.jpg" alt="Image">
-                        <div class="testimonial-shape">
-                            <img src="assets/img/testimonial/testimonial-shape.png" alt="Image">
-                        </div>
-                    </div>
-                </div>
+            <!-- CHEF 2 -->
+            <div class="col-md-4">
+                <div class="chef-card">
+                    <img src="assets/img/chefs/chef2.jpg" />
 
-                <div class="col-lg-8 col-md-12">
-                    <div class="testimonial-content">
-                        <i class="flaticon-straight-quotes"></i>
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”</p>
-                        <h3>Anna Deo</h3>
-                        <img src="assets/img/testimonial/signature.png" alt="Image">
+                    <div class="chef-info">
+                        <h4>Lisa Chang</h4>
+                        <span>Pastry Chef</span>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-4 col-md-12">
-                    <div class="testimonial-img">
-                        <img src="assets/img/testimonial/testimonial-3.jpg" alt="Image">
-                        <div class="testimonial-shape">
-                            <img src="assets/img/testimonial/testimonial-shape.png" alt="Image">
-                        </div>
-                    </div>
-                </div>
+            <!-- CHEF 3 -->
+            <div class="col-md-4">
+                <div class="chef-card">
+                    <img src="assets/img/chefs/chef3.jpg" />
 
-                <div class="col-lg-8 col-md-12">
-                    <div class="testimonial-content">
-                        <i class="flaticon-straight-quotes"></i>
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”</p>
-                        <h3>Kilvis Smith</h3>
-                        <img src="assets/img/testimonial/signature.png" alt="Image">
+                    <div class="chef-info">
+                        <h4>Michael Carter</h4>
+                        <span>Sous Chef</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End Testimonial -->
-
-<!-- Doctors -->
-<section class="doctors-area pt-100 pb-70">
+<!-- GALLERY -->
+<section class="gallery-section">
     <div class="container">
-        <div class="section-title text-align-left">
-            <span>Our specialists</span>
-            <h2>We have specialist doctor’s for emergency services</h2>
-        </div>
-
-        <div class="doctors-slider owl-theme owl-carousel">
-            <div class="single-doctors one">
-                <div class="doctors-img">
-                    <img src="assets/img/doctors/doctors-1.jpg" alt="Image">
-                    <ul>
-                        <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-pinterest-alt"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="doctors-content">
-                    <span>Cosmetic Surgeon</span>
-                    <h3>Bernarda N. Bacon</h3>
-                </div>
-            </div>
-
-            <div class="single-doctors two">
-                <div class="doctors-img">
-                    <img src="assets/img/doctors/doctors-2.jpg" alt="Image">
-                    <ul>
-                        <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-pinterest-alt"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="doctors-content">
-                    <span>Surgery Surgeon</span>
-                    <h3>Brian Christensen</h3>
-                </div>
-            </div>
-
-            <div class="single-doctors three">
-                <div class="doctors-img">
-                    <img src="assets/img/doctors/doctors-3.jpg" alt="Image">
-                    <ul>
-                        <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-pinterest-alt"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="doctors-content">
-                    <span>Dental surgeon</span>
-                    <h3>Aimee C. Mayfield</h3>
-                </div>
-            </div>
-
-            <div class="single-doctors four">
-                <div class="doctors-img">
-                    <img src="assets/img/doctors/doctors-4.jpg" alt="Image">
-                    <ul>
-                        <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-pinterest-alt"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="doctors-content">
-                    <span>Cardiothoracic Surgeon</span>
-                    <h3>Gabriel Henderson</h3>
-                </div>
-            </div>
-
-            <div class="single-doctors five">
-                <div class="doctors-img">
-                    <img src="assets/img/doctors/doctors-5.jpg" alt="Image">
-                    <ul>
-                        <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-pinterest-alt"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="doctors-content">
-                    <span>Surgeon</span>
-                    <h3>Kilva Henderson</h3>
-                </div>
-            </div>
-
-            <div class="single-doctors six">
-                <div class="doctors-img">
-                    <img src="assets/img/doctors/doctors-6.jpg" alt="Image">
-                    <ul>
-                        <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-pinterest-alt"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="doctors-content">
-                    <span>Cardiology</span>
-                    <h3>Ana Henderson</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Doctors -->
-
-<!-- Portfolio -->
-<section class="our-portfolio-area pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="section-title text-align-left">
-                    <span>Our portfolio</span>
-                    <h2>Below are some examples of all the portfolios we provide to our patients</h2>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-                <div class="section-btn">
-                    <a routerLink="/portfolio-column-three" class="default-btn">View all portfolios</a>
-                </div>
-            </div>
+        <div class="section-title">
+            <h2>Our Gallery</h2>
         </div>
 
         <div class="row">
-            <div class="col-lg-4 col-sm-6">
-                <div class="single-portfolio">
-                    <img src="assets/img/portfolio/portfolio-1.jpg" alt="Image">
-                    <div class="portfolio-content">
-                        <h3><a routerLink="/portfolio-details">Conditions we treat</a></h3>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <img src="assets/img/gallery/food1.jpg" />
             </div>
 
-            <div class="col-lg-4 col-sm-6">
-                <div class="single-portfolio">
-                    <img src="assets/img/portfolio/portfolio-2.jpg" alt="Image">
-                    <div class="portfolio-content">
-                        <h3><a routerLink="/portfolio-details">Research and innovation</a></h3>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <img src="assets/img/gallery/food2.jpg" />
             </div>
 
-            <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-                <div class="single-portfolio">
-                    <img src="assets/img/portfolio/portfolio-3.jpg" alt="Image">
-                    <div class="portfolio-content">
-                        <h3><a routerLink="/portfolio-details">Doctor examining physiotherapy </a></h3>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <img src="assets/img/gallery/restaurant.jpg" />
             </div>
         </div>
     </div>
 </section>
-<!-- End Portfolio -->
-
-<!-- Start Partner -->
-<div class="partner-area tb-100">
-    <div class="container">
-        <div class="partner-slider partner-bg owl-theme owl-carousel">
-            <div class="partner-item">
-                <a href="#" target="_blank"><img src="assets/img/partner/partner-1.png" alt="Image"></a>
-            </div>
-            <div class="partner-item">
-                <a href="#" target="_blank"><img src="assets/img/partner/partner-2.png" alt="Image"></a>
-            </div>
-            <div class="partner-item">
-                <a href="#" target="_blank"><img src="assets/img/partner/partner-3.png" alt="Image"></a>
-            </div>
-            <div class="partner-item">
-                <a href="#" target="_blank"><img src="assets/img/partner/partner-4.png" alt="Image"></a>
-            </div>
-            <div class="partner-item">
-                <a href="#" target="_blank"><img src="assets/img/partner/partner-5.png" alt="Image"></a>
-            </div>
-            <div class="partner-item">
-                <a href="#" target="_blank"><img src="assets/img/partner/partner-3.png" alt="Image"></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="partner-shape"><img src="assets/img/partner/partner-shape.png" alt="Image"></div>
-</div>
-<!-- End Partner -->
-
-<!-- Blog -->
-<section class="blog-area pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="section-title text-align-left">
-                    <span>Recent news</span>
-                    <h2>All the recent news about our treatment has been published</h2>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-                <div class="section-btn">
-                    <a routerLink="/blog-column-one" class="default-btn">View all news</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-img">
-                        <a routerLink="/blog-details"><img src="assets/img/blog/blog-1.jpg" alt="Image"></a>
-                        <div class="date">
-                            <ul>
-                                <li>07</li>
-                                <li>Sep</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <span>General news</span>
-                        <h3><a routerLink="/blog-details">It might be time to seek a medical your muscle and joint pain</a></h3>
-                        <ul>
-                            <li>By: <a routerLink="/">Curtis Warren</a></li>
-                            <li class="read"><a routerLink="/blog-details">Read More <i class="flaticon-right-arrow"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-img">
-                        <a routerLink="/blog-details"><img src="assets/img/blog/blog-2.jpg" alt="Image"></a>
-                        <div class="date">
-                            <ul>
-                                <li>08</li>
-                                <li>Sep</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <span>General news</span>
-                        <h3><a routerLink="/blog-details">The reassurance of a safe pregnancy through the birth of your baby</a></h3>
-                        <ul>
-                            <li>By: <a routerLink="/">James Lopez</a></li>
-                            <li class="read"><a routerLink="/blog-details">Read More <i class="flaticon-right-arrow"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                <div class="single-blog-post">
-                    <div class="blog-img">
-                        <a routerLink="/blog-details"><img src="assets/img/blog/blog-3.jpg" alt="Image"></a>
-                        <div class="date">
-                            <ul>
-                                <li>09</li>
-                                <li>Sep</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <span>General news</span>
-                        <h3><a routerLink="/blog-details">Read up on different types of fevers that may require a doctor</a></h3>
-                        <ul>
-                            <li>By: <a routerLink="/">Milton Baines</a></li>
-                            <li class="read"><a routerLink="/blog-details">Read More <i class="flaticon-right-arrow"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Blog -->
-
-<!-- Subscribe -->
-<section class="subscribe-area pb-100">
-    <div class="container">
-        <div class="subscribe-bg">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-sm-6">
-                    <div class="subscribe-content">
-                        <img src="assets/img/subscribe-img.png" alt="Image">
-                        <h3>Sing up for newsletter</h3>
-                        <span>Subscribe to the newsletter for all the latest updates</span>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-sm-6">
-                    <form class="newsletter-form">
-                        <input type="email" class="form-control" placeholder="Enter email address" name="email">
-                        <button class="default-btn" type="submit">Subscribe</button>
-                    </form>	
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Subscribe -->
 
 <!-- Footer -->
 <app-footer-style-one></app-footer-style-one>
-<!-- End Footer -->
